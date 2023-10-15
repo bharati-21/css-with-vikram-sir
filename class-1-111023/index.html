@@ -51,8 +51,16 @@
       rel="stylesheet"
       type="text/css"
     />
-    <link href="https://latex.now.sh/style.css" rel="stylesheet" type="text/css" />
-    <link href="https://unpkg.com/chota@latest" rel="stylesheet" type="text/css" />
+    <link
+      href="https://latex.now.sh/style.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://unpkg.com/chota@latest"
+      rel="stylesheet"
+      type="text/css"
+    />
     <link href="https://unpkg.com/mvp.css" rel="stylesheet" type="text/css" />
     <link
       href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css"
@@ -64,27 +72,40 @@
       rel="stylesheet"
       type="text/css"
     />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
   </head>
-  <body>
-    <header>
-      <h1>Welcome to My Page</h1>
+  <body
+    class="w-full max-w-full bg-none bg-slate-700 text-white font-sans max-h-screen"
+  >
+    <header
+      class="w-full max-w-full bg-sky-500 h-[10vh] p-2 flex flex-col align-center justify-center"
+    >
+      <h1 class="p-0 font-sans font-bold text-4xl">Welcome to My Page</h1>
     </header>
-    <main>
-      <section>
-        <h2>About Me</h2>
-        <p>Hello, World! I love coding. I am here to learn CSS.</p>
+    <main
+      class="w-full max-w-full my-1 flex gap-16 min-h-[80vh] align-center justify-center h-full p-6"
+    >
+      <section class="text-left mb-12 flex flex-col gap-4">
+        <h2 class="text-6xl font-sans">About Me</h2>
+        <p class="mt-4 text-3xl">
+          Hello, World! I love coding. I am here to learn CSS.
+        </p>
       </section>
-      <section>
-        <h2>My Interests</h2>
-        <ul>
-          <li>Coding</li>
-          <li>Coding</li>
-          <li>Coding</li>
+      <section class="text-left flex flex-col gap-4">
+        <h2 class="text-6xl font-sans">My Interests</h2>
+        <ul class="p-0">
+          <li class="pl-8 py-0">Coding</li>
+          <li class="pl-8 py-0">Coding</li>
+          <li class="pl-8 py-0">Coding</li>
         </ul>
       </section>
     </main>
-    <footer>
-      <p>&copy; 2023 My Page. All rights reserved.</p>
+    <footer
+      class="w-full max-w-full bg-sky-500 h-[10vh] p-2 flex flex-col align-center justify-center"
+    >
+      <p class="text-white text-center">
+        &copy; 2023 My Page. All rights reserved.
+      </p>
     </footer>
   </body>
 </html>
